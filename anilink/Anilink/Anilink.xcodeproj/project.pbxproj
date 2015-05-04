@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B355CD771ACC06DE00DE6E97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B355CD761ACC06DE00DE6E97 /* main.m */; };
+		B355CD7A1ACC06DE00DE6E97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B355CD791ACC06DE00DE6E97 /* AppDelegate.m */; };
+		B355CD7D1ACC06DE00DE6E97 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B355CD7C1ACC06DE00DE6E97 /* MasterViewController.m */; };
+		B355CD801ACC06DE00DE6E97 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B355CD7F1ACC06DE00DE6E97 /* DetailViewController.m */; };
+		B355CD831ACC06DE00DE6E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B355CD811ACC06DE00DE6E97 /* Main.storyboard */; };
+		B355CD851ACC06DE00DE6E97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B355CD841ACC06DE00DE6E97 /* Images.xcassets */; };
+		B355CD881ACC06DE00DE6E97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B355CD861ACC06DE00DE6E97 /* LaunchScreen.xib */; };
+		B355CD941ACC06DE00DE6E97 /* AnilinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B355CD931ACC06DE00DE6E97 /* AnilinkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B355CD8E1ACC06DE00DE6E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B355CD691ACC06DE00DE6E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B355CD701ACC06DE00DE6E97;
+			remoteInfo = Anilink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B355CD711ACC06DE00DE6E97 /* Anilink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anilink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B355CD751ACC06DE00DE6E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B355CD761ACC06DE00DE6E97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B355CD781ACC06DE00DE6E97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B355CD791ACC06DE00DE6E97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B355CD7B1ACC06DE00DE6E97 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B355CD7C1ACC06DE00DE6E97 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B355CD7E1ACC06DE00DE6E97 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B355CD7F1ACC06DE00DE6E97 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B355CD821ACC06DE00DE6E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B355CD841ACC06DE00DE6E97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B355CD871ACC06DE00DE6E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B355CD8D1ACC06DE00DE6E97 /* AnilinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnilinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B355CD921ACC06DE00DE6E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B355CD931ACC06DE00DE6E97 /* AnilinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnilinkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B355CD6E1ACC06DE00DE6E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B355CD8A1ACC06DE00DE6E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B355CD681ACC06DE00DE6E97 = {
+			isa = PBXGroup;
+			children = (
+				B355CD731ACC06DE00DE6E97 /* Anilink */,
+				B355CD901ACC06DE00DE6E97 /* AnilinkTests */,
+				B355CD721ACC06DE00DE6E97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B355CD721ACC06DE00DE6E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B355CD711ACC06DE00DE6E97 /* Anilink.app */,
+				B355CD8D1ACC06DE00DE6E97 /* AnilinkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B355CD731ACC06DE00DE6E97 /* Anilink */ = {
+			isa = PBXGroup;
+			children = (
+				B355CD781ACC06DE00DE6E97 /* AppDelegate.h */,
+				B355CD791ACC06DE00DE6E97 /* AppDelegate.m */,
+				B355CD7B1ACC06DE00DE6E97 /* MasterViewController.h */,
+				B355CD7C1ACC06DE00DE6E97 /* MasterViewController.m */,
+				B355CD7E1ACC06DE00DE6E97 /* DetailViewController.h */,
+				B355CD7F1ACC06DE00DE6E97 /* DetailViewController.m */,
+				B355CD811ACC06DE00DE6E97 /* Main.storyboard */,
+				B355CD841ACC06DE00DE6E97 /* Images.xcassets */,
+				B355CD861ACC06DE00DE6E97 /* LaunchScreen.xib */,
+				B355CD741ACC06DE00DE6E97 /* Supporting Files */,
+			);
+			path = Anilink;
+			sourceTree = "<group>";
+		};
+		B355CD741ACC06DE00DE6E97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B355CD751ACC06DE00DE6E97 /* Info.plist */,
+				B355CD761ACC06DE00DE6E97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B355CD901ACC06DE00DE6E97 /* AnilinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B355CD931ACC06DE00DE6E97 /* AnilinkTests.m */,
+				B355CD911ACC06DE00DE6E97 /* Supporting Files */,
+			);
+			path = AnilinkTests;
+			sourceTree = "<group>";
+		};
+		B355CD911ACC06DE00DE6E97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B355CD921ACC06DE00DE6E97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B355CD701ACC06DE00DE6E97 /* Anilink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B355CD971ACC06DE00DE6E97 /* Build configuration list for PBXNativeTarget "Anilink" */;
+			buildPhases = (
+				B355CD6D1ACC06DE00DE6E97 /* Sources */,
+				B355CD6E1ACC06DE00DE6E97 /* Frameworks */,
+				B355CD6F1ACC06DE00DE6E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anilink;
+			productName = Anilink;
+			productReference = B355CD711ACC06DE00DE6E97 /* Anilink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B355CD8C1ACC06DE00DE6E97 /* AnilinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B355CD9A1ACC06DE00DE6E97 /* Build configuration list for PBXNativeTarget "AnilinkTests" */;
+			buildPhases = (
+				B355CD891ACC06DE00DE6E97 /* Sources */,
+				B355CD8A1ACC06DE00DE6E97 /* Frameworks */,
+				B355CD8B1ACC06DE00DE6E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B355CD8F1ACC06DE00DE6E97 /* PBXTargetDependency */,
+			);
+			name = AnilinkTests;
+			productName = AnilinkTests;
+			productReference = B355CD8D1ACC06DE00DE6E97 /* AnilinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B355CD691ACC06DE00DE6E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Stefano Agnoletto";
+				TargetAttributes = {
+					B355CD701ACC06DE00DE6E97 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B355CD8C1ACC06DE00DE6E97 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B355CD701ACC06DE00DE6E97;
+					};
+				};
+			};
+			buildConfigurationList = B355CD6C1ACC06DE00DE6E97 /* Build configuration list for PBXProject "Anilink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B355CD681ACC06DE00DE6E97;
+			productRefGroup = B355CD721ACC06DE00DE6E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B355CD701ACC06DE00DE6E97 /* Anilink */,
+				B355CD8C1ACC06DE00DE6E97 /* AnilinkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B355CD6F1ACC06DE00DE6E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B355CD831ACC06DE00DE6E97 /* Main.storyboard in Resources */,
+				B355CD881ACC06DE00DE6E97 /* LaunchScreen.xib in Resources */,
+				B355CD851ACC06DE00DE6E97 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B355CD8B1ACC06DE00DE6E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B355CD6D1ACC06DE00DE6E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B355CD7A1ACC06DE00DE6E97 /* AppDelegate.m in Sources */,
+				B355CD7D1ACC06DE00DE6E97 /* MasterViewController.m in Sources */,
+				B355CD771ACC06DE00DE6E97 /* main.m in Sources */,
+				B355CD801ACC06DE00DE6E97 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B355CD891ACC06DE00DE6E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B355CD941ACC06DE00DE6E97 /* AnilinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B355CD8F1ACC06DE00DE6E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B355CD701ACC06DE00DE6E97 /* Anilink */;
+			targetProxy = B355CD8E1ACC06DE00DE6E97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B355CD811ACC06DE00DE6E97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B355CD821ACC06DE00DE6E97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B355CD861ACC06DE00DE6E97 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B355CD871ACC06DE00DE6E97 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B355CD951ACC06DE00DE6E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B355CD961ACC06DE00DE6E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B355CD981ACC06DE00DE6E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Anilink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B355CD991ACC06DE00DE6E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Anilink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B355CD9B1ACC06DE00DE6E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnilinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anilink.app/Anilink";
+			};
+			name = Debug;
+		};
+		B355CD9C1ACC06DE00DE6E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnilinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anilink.app/Anilink";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B355CD6C1ACC06DE00DE6E97 /* Build configuration list for PBXProject "Anilink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B355CD951ACC06DE00DE6E97 /* Debug */,
+				B355CD961ACC06DE00DE6E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B355CD971ACC06DE00DE6E97 /* Build configuration list for PBXNativeTarget "Anilink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B355CD981ACC06DE00DE6E97 /* Debug */,
+				B355CD991ACC06DE00DE6E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B355CD9A1ACC06DE00DE6E97 /* Build configuration list for PBXNativeTarget "AnilinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B355CD9B1ACC06DE00DE6E97 /* Debug */,
+				B355CD9C1ACC06DE00DE6E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B355CD691ACC06DE00DE6E97 /* Project object */;
+}
